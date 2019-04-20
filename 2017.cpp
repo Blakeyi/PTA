@@ -99,30 +99,30 @@ int main()
 
 //#include<iostream>
 //using namespace std;
-//#include <iomanip>
-//int main()
-//{
-//	long long a; int i = 0, j = 0; double b = 1;
-//	cin >> a;
-//	if (a < 0)
-//	{
-//		b = b*1.5;
-//		a = a*(-1);
-//	}
-//	if (a % 2 == 0)
-//		b = b * 2;
-//	while (a)
-//	{
-//		if (a % 10 == 2)
-//			i++;
-//		a = a / 10;
-//		j++;
-//	}
-//	b = double(i) / double(j)*b * 100;
-//
-//	cout << fixed << setprecision(2) << b << "%" << endl;
-//	//cout << setprecision(2) << a;
-//	//	system("pause");
-//	return 0;
-//
-//}
+#include <iomanip>
+int main()
+{
+	long long a; int i = 0, j = 0; double b = 1;
+	cin >> a;
+	if (a < 0)
+	{
+		b = b*1.5;
+		a = a*(-1);
+	}
+	if (a % 2 == 0)
+		b = b * 2;
+	while (a)
+	{
+		if (a % 10 == 2)
+			i++;
+		a = a / 10;
+		j++;
+	}
+	b = double(i) / double(j)*b * 100;
+
+	cout << fixed << setprecision(2) << b << "%" << endl;
+	//cout << setprecision(2) << a;
+	//	system("pause");
+	return 0;
+
+}
