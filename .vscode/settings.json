@@ -4,5 +4,7 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "ios": "cpp"
-    }
+    },
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
 }
