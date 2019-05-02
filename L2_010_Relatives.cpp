@@ -15,7 +15,7 @@ void Union(int x, int y) //合并朋友关系
   //第一步，先找到x，y的朋友
   int frix = FindFri(x);
   int friy = FindFri(y);
-  if (frix != friy)
+  if (frix != friy)//如果相等，说明已经是朋友了（朋友的朋友也是朋友）
     fri[frix] = friy;
 }
 
