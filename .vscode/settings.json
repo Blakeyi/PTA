@@ -1,9 +1,10 @@
 {
     "files.associations": {
-        "forward_list": "cpp",
-        "iostream": "cpp",
-        "ostream": "cpp",
-        "ios": "cpp"
+      "forward_list": "cpp",
+      "iostream": "cpp",
+      "ostream": "cpp",
+      "ios": "cpp",
+      "map": "cpp"
     },
     "editor.tabSize": 2,
     "editor.detectIndentation": false,

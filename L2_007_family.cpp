@@ -48,7 +48,7 @@ int main()
   {
     scanf("%d %d %d %d", &family[i].id, &family[i].fid, &family[i].mid, &k);
     visit[family[i].id] = true;
-    if (family[i].fid != -1)
+    if (family[i].fid != -1) //存在父亲
     {
       visit[family[i].fid] = true;
       Union(family[i].fid, family[i].id);
