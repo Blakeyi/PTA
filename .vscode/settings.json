@@ -4,7 +4,8 @@
       "iostream": "cpp",
       "ostream": "cpp",
       "ios": "cpp",
-      "map": "cpp"
+      "map": "cpp",
+      "queue": "cpp"
     },
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
