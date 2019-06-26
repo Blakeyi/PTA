@@ -60,6 +60,7 @@ int main()
     if (s.upper_bound(num) != s.end()) //set会按照从小到大排序
     {                                  //num只要大于的不是最后一个元素，就可以插到老队伍里
       //upper_bound求出第一个大于num的下标
+      //lower_bound求出第一个大于或等于num的下标
       s.erase(s.upper_bound(num));
     }
     s.insert(num);
