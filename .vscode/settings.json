@@ -6,7 +6,10 @@
       "ios": "cpp",
       "map": "cpp",
       "queue": "cpp",
-      "xtree": "cpp"
+      "xtree": "cpp",
+      "iterator": "cpp",
+      "vector": "cpp",
+      "algorithm": "cpp"
     },
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
